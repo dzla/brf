@@ -9,5 +9,7 @@
 #' @examples
 #'
 sum_square <- function(x, y) {
-  x^2 + y^2
+  z1 <- x^2 + y^2
+  z2 <- x^2 + y^2
+  dplyr::tibble(z1, z2)
 }
